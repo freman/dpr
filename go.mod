@@ -2,10 +2,7 @@ module github.com/freman/dpr
 
 go 1.18
 
-replace github.com/freman/sse => /home/freman/go/src/github.com/freman/sse
-
 require (
-	github.com/davecgh/go-spew v1.1.1
 	github.com/freman/sse v0.0.0-20210912083716-d77435a3ebf2
 	github.com/labstack/echo/v4 v4.7.2
 )
